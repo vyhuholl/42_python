@@ -1,0 +1,1 @@
+sed -E '/\"[Dd]ata [Ss]cientist\"/! s/ ?\(?[Dd]ata [Ss]cientist\)? ?//g' $1 > hh_positions.csv
